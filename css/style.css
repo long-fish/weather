@@ -1,0 +1,118 @@
+/* 這是指向class */
+.box1{
+    margin-top: 25px ;
+    float: left;
+    width: 70%;
+    height: 250px;
+    box-sizing: border-box;
+
+    background-color: palegreen;
+    font-size: 25px;
+    line-height: 1.5em;
+    
+    border:  orange 1px solid;
+    border-radius: 10px;
+}
+
+.box2{
+    margin-top: 25px ;
+    float: right;
+    width: 30%;
+    height: 250px;
+    box-sizing: border-box;
+
+    background-color: palegreen;
+    font-size: 25px;
+    line-height: 1.5em;
+    
+    border: orange 1px solid;
+    border-radius: 10px;
+}
+
+.info{
+    float: left;
+    width: 16.666666%;
+    height: 200px;
+    box-sizing: border-box;
+    
+    /*
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    */
+    background-color: rgb(225, 225, 150);
+    border:  orange 1px solid;
+    border-radius: 10px;
+}
+
+.box1 h1{
+    color: rgb(225, 150, 100);
+    font-size: 50px; 
+}
+
+.box2 h1{
+    color: rgb(225, 150, 100);
+    font-size: 50px;    
+}
+
+.select_city{
+    margin-top: 10px;
+    float: left;
+    width: 35%;
+    height: 80px;
+    margin-right: 10px;
+
+    font-size: 30px;
+    font-family: "Microsoft JhengHei";
+    
+    background-color: blanchedalmond;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.select_time{
+    margin-top: 10px;
+    float: left;
+    width: 50%;
+    height: 80px;
+    margin-right: 10px;
+
+    font-size: 30px;
+    font-family: "Microsoft JhengHei";
+    
+    background-color: blanchedalmond;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#city, #area{
+    font-size: 35px;
+}
+
+body{
+    font-family: "Microsoft JhengHei";
+    background-color: rgb(50, 225, 200);
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+}
+
+button{
+    margin-top: 10px;
+    float: left;
+    width: 10%;
+    height: 80px;
+    margin-right: 10px;
+
+    font-size: 30px;
+    font-family: "Microsoft JhengHei";
+    
+    background-color: blanchedalmond;
+
+    box-sizing: border-box;
+    border-radius: 5px;
+}
